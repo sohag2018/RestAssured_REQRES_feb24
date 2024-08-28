@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2644" started-at="2024-08-25T16:04:56Z" finished-at="2024-08-25T16:04:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2644" started-at="2024-08-25T16:04:56Z" finished-at="2024-08-25T16:04:59Z">
+      <class name="api.tests.Test_UserModule_dataProvider">
+        <test-method status="PASS" signature="testUpdateUser(java.lang.String)[pri:2, instance:api.tests.Test_UserModule_dataProvider@14acaea5]" name="testUpdateUser" duration-ms="1797" started-at="2024-08-25T12:04:57Z" data-provider="payloadDataProvidr_id" finished-at="2024-08-25T12:04:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method status="PASS" signature="testDeleteUser(java.lang.String)[pri:4, instance:api.tests.Test_UserModule_dataProvider@14acaea5]" name="testDeleteUser" duration-ms="140" started-at="2024-08-25T12:04:59Z" data-provider="payloadDataProvidr_id" finished-at="2024-08-25T12:04:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+      </class> <!-- api.tests.Test_UserModule_dataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
